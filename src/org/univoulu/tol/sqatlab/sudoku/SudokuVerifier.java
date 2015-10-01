@@ -37,6 +37,8 @@ public class SudokuVerifier {
 					//{
 					System.out.println("Answer Array runs!");
 					answerArray[x-1]++;
+					
+					//Correct
 					//}
 				}	
 			}
