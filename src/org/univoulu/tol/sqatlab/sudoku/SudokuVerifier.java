@@ -30,7 +30,8 @@ public class SudokuVerifier {
 				int x =0;
 				x= u +1;
 				System.out.println("U:" + x);
-				if(x == firstrow[0][u])
+				System.out.println("firstrow:" + firstrow[u][0]);
+				if(x == firstrow[u][0])
 				{
 					System.out.println("Answer Array runs!");
 					answerArray[i] = answerArray[i] + 1;
