@@ -8,7 +8,7 @@ public class TestSudokuVerifier {
 
 	@Test
 	public void FirstRowisCorrectHorizontally() {
-		sudokuValues
+		
 	}
 
 }

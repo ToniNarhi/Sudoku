@@ -47,3 +47,10 @@ RefactoringAction 1443690213099 TestSudokuVerifier.java RENAME test()=>void Firs
 RefactoringAction 1443690220610 TestSudokuVerifier.java RENAME First()=>void FirstRowisCorrectHorizontally() METHOD
 EditAction 1443690627488 TestSudokuVerifier.java 225 1 0 0
 EditAction 1443690627577 SudokuVerifier.java 407 1 5 0
+CompilationAction 1443690627688 TestSudokuVerifier.java
+CompilationAction 1443690627689 TestSudokuVerifier.java
+CompilationAction 1443690627689 TestSudokuVerifier.java
+CompilationAction 1443690684125 TestSudokuVerifier.java
+CompilationAction 1443690684125 TestSudokuVerifier.java
+CompilationAction 1443690684125 TestSudokuVerifier.java
+EditAction 1443690684133 SudokuVerifier.java 443 1 5 0
