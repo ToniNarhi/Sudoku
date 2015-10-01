@@ -54,3 +54,16 @@ CompilationAction 1443690684125 TestSudokuVerifier.java
 CompilationAction 1443690684125 TestSudokuVerifier.java
 CompilationAction 1443690684125 TestSudokuVerifier.java
 EditAction 1443690684133 SudokuVerifier.java 443 1 5 0
+UnitTestCaseAction 1443690684473 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443690684474 TestSudokuVerifier OK
+UnitTestCaseAction 1443690696108 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443690696108 TestSudokuVerifier OK
+UnitTestCaseAction 1443690714794 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443690714794 TestSudokuVerifier OK
+UnitTestCaseAction 1443690715750 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443690715751 TestSudokuVerifier OK
+UnitTestCaseAction 1443690717137 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443690717138 TestSudokuVerifier OK
+UnitTestCaseAction 1443690719803 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443690719804 TestSudokuVerifier OK
+EditAction 1443690747771 SudokuVerifier.java 447 1 4 0
