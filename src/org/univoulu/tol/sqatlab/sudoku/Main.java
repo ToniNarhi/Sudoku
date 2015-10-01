@@ -7,5 +7,6 @@ public class Main {
 	String sudokuValues = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
 	SudokuVerifier sudokuVerifier = new SudokuVerifier();
 	sudokuVerifier.verify(sudokuValues);
+
 	}
 }
