@@ -11,15 +11,15 @@ public class SudokuVerifier {
 		int[][] firstrow = new int[stringArray.length/9][stringArray.length/9];
 		//String[] stringArray = new String[] {candidateSolution};
 		//int candidateSolInt = Integer.parseInt(candidateSolution);
-		//System.out.println(stringArray.length);
+		System.out.println(stringArray);
 		for(int i = 0; i < stringArray.length/9; i++)
 		{
 			//System.out.println("Array i Runs!");
 			for(int u = 0; u < stringArray.length/9; u++)
 			{
 				//System.out.println("Array Runs!");
-				firstrow[i][u] = Character.getNumericValue(stringArray[(u*9))+i]);
-				System.out.println(firstrow[i][u]);
+				//firstrow[i][u] = Character.getNumericValue(stringArray[(u*9)+i]);
+				//System.out.println(firstrow[i][u]);
 			}
 		}	
 		System.out.println("Runs!");
