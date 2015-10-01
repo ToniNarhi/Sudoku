@@ -10,7 +10,7 @@ public class SudokuVerifier {
 		String[] stringArray = new String[] {candidateSolution};
 		for(int i = 0; i < 8; i++)
 		{
-		//firstrow[i] = stringArray[i];
+		firstrow[0] = stringArray[0];
 		//System.out.println(firstrow[i]);
 		}	
 		System.out.println("Runs!");
