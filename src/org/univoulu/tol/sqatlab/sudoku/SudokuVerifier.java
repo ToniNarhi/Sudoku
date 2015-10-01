@@ -29,7 +29,7 @@ public class SudokuVerifier {
 			{
 				if(u == firstrow[u][0])
 				{
-					answerArray[i]++;
+					answerArray[u]++;
 				}	
 			}
 		
