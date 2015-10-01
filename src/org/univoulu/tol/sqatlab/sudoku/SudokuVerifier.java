@@ -75,6 +75,9 @@ public class SudokuVerifier {
 				}
 			}
 		}
+		
+		//Grid
+		for()
 		for(int i = 0; i < 9; i++)
 		{
 			System.out.println("Vertical Answer Array:" + VerticalAnswerArray[i]);
