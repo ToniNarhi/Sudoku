@@ -21,3 +21,20 @@ RefactoringAction 1443689100855 Main.java ADD SudokuVerifier sudokuVerifier FIEL
 CompilationAction 1443689126423 Main.java
 CompilationAction 1443689126424 Main.java
 EditAction 1443689313560 Main.java 205 0 0 0
+CompilationAction 1443689313656 Main.java
+CompilationAction 1443689313657 Main.java
+CompilationAction 1443689329719 Main.java
+CompilationAction 1443689329719 Main.java
+CompilationAction 1443689329735 Main.java
+RefactoringAction 1443689454895 Main.java RENAME sudokuVerifier=>String SudokuVerifier FIELD
+RefactoringAction 1443689480905 Main.java RENAME SudokuVerifier=>SudokuVerifier sudokuVerifier FIELD
+RefactoringAction 1443689500422 Main.java ADD String sudokuValues FIELD
+CompilationAction 1443689532234 Main.java
+CompilationAction 1443689532253 Main.java
+RefactoringAction 1443689567918 Main.java ADD void verify() METHOD
+RefactoringAction 1443689598949 Main.java ADD int sudokuVerifier/2 FIELD
+RefactoringAction 1443689605962 Main.java RENAME sudokuVerifier/2=>int returnValue FIELD
+RefactoringAction 1443689618149 Main.java REMOVE returnValue FIELD
+RefactoringAction 1443689652660 Main.java REMOVE verify() METHOD
+CompilationAction 1443689950189 Main.java
+EditAction 1443690107759 SudokuVerifier.java 234 1 2 0
