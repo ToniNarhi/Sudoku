@@ -18,7 +18,7 @@ public class SudokuVerifier {
 			for(int u = 0; u < stringArray.length/9; u++)
 			{
 				//System.out.println("Array Runs!");
-				firstrow[i][u] = Character.getNumericValue(stringArray[(u*(stringArray.length/9))+i]);
+				firstrow[i][u] = Character.getNumericValue(stringArray[(u*9))+i]);
 				System.out.println(firstrow[i][u]);
 			}
 		}	
