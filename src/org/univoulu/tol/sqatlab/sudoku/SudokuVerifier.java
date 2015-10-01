@@ -7,7 +7,7 @@ public class SudokuVerifier {
 	public int verify(String candidateSolution) {
 		// returns 1 if the candidate solution is correct
 		//String[] firstrow = new String[10];
-		final String[] stringArray = new String[] {candidateSolution};
+		final String[] stringArray = candidateSolution.split("");//new String[] {candidateSolution};
 		int[][] firstrow = new int[stringArray.length/9][stringArray.length/9];
 		//String[] stringArray = new String[] {candidateSolution};
 		//int candidateSolInt = Integer.parseInt(candidateSolution);
