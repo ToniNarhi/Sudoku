@@ -13,6 +13,7 @@ public class SudokuVerifier {
 		//int candidateSolInt = Integer.parseInt(candidateSolution);
 		for(int i = 0; i < stringArray.length/9; i++)
 		{
+			System.out.println("Array i Runs!");
 			for(int u = 0; u < stringArray.length/9; u++)
 			{
 				System.out.println("Array Runs!");
