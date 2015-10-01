@@ -22,7 +22,8 @@ public class SudokuVerifier {
 			}
 
 		}	
-		int[] answerArray = new int[9];
+		int[] VerticalAnswerArray = new int[9];
+		int[] HorizontalAnswerArray = new int[9];
 		
 		//Vertical
 		for(int j = 0; j < stringArray.length/9; j++)
@@ -41,7 +42,32 @@ public class SudokuVerifier {
 						//if(x == 1 && firstrow[0][i] == 1)
 						//{
 						//System.out.println("Answer Array runs!");
-						answerArray[x-1]++;
+						VerticalAnswerArray[x-1]++;
+						
+				
+						//}
+					}	
+				}
+			}
+		}
+		//Horizontal
+		for(int j = 0; j < stringArray.length/9; j++)
+		{
+			//Correct
+			for(int i = 0; i < stringArray.length/9; i++)
+			{
+				for(int u = 0; u < stringArray.length/9; u++)
+				{
+					int x =0;
+					x= u +1;
+					System.out.println("U:" + x);
+					System.out.println("firstrow:" + firstrow[i][j]);
+					if(x == firstrow[i][j])
+					{
+						//if(x == 1 && firstrow[0][i] == 1)
+						//{
+						//System.out.println("Answer Array runs!");
+						HorizontalAnswerArray[x-1]++;
 						
 				
 						//}
@@ -51,7 +77,11 @@ public class SudokuVerifier {
 		}
 		for(int i = 0; i < 9; i++)
 		{
-			System.out.println("Answer Array:" + answerArray[i]);
+			System.out.println("Vertical Answer Array:" + VerticalAnswerArray[i]);
+		}
+		for(int i = 0; i < 9; i++)
+		{
+			System.out.println("Horizontal Answer Array:" + HorizontalAnswerArray[i]);
 		}
 		System.out.println("Runs!");
 		return 0;
