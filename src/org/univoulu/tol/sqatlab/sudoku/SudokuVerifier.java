@@ -27,7 +27,7 @@ public class SudokuVerifier {
 		{
 			for(int u = 0; u < stringArray.length/9; u++)
 			{
-				if(u == firstrow[i][0])
+				if(u == firstrow[u][0])
 				{
 					answerArray[i]++;
 				}	
