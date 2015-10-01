@@ -36,7 +36,7 @@ public class SudokuVerifier {
 					//if(x == 1 && firstrow[0][i] == 1)
 					//{
 					System.out.println("Answer Array runs!");
-					answerArray[0]++;
+					answerArray[x-1]++;
 					//}
 				}	
 			}

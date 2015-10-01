@@ -141,3 +141,10 @@ EditAction 1443695431968 SudokuVerifier.java 1447 1 8 0
 RefactoringAction 1443695452514 SudokuVerifier.java ADD int i FIELD
 RefactoringAction 1443695455047 SudokuVerifier.java REMOVE i FIELD
 EditAction 1443695462243 SudokuVerifier.java 1453 1 8 0
+UnitTestCaseAction 1443695462690 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443695462690 TestSudokuVerifier FAIL
+UnitTestCaseAction 1443695480384 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443695480385 TestSudokuVerifier FAIL
+UnitTestCaseAction 1443695483307 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443695483307 TestSudokuVerifier FAIL
+EditAction 1443695504150 SudokuVerifier.java 1455 1 8 0
