@@ -7,3 +7,5 @@ RefactoringAction 1443688756574 SudokuVerifier.java REMOVE scoreKeeper FIELD
 RefactoringAction 1443688804403 Main.java ADD Main.java CLASS
 FileOpenedAction 1443688804504 Main.java 70 0 0 0
 EditAction 1443688891036 SudokuVerifier.java 202 1 1 0
+RefactoringAction 1443688923690 Main.java ADD void SudokuVerifier() METHOD
+EditAction 1443688927102 Main.java 88 1 0 0
