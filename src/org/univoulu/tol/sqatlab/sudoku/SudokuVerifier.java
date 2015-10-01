@@ -27,9 +27,10 @@ public class SudokuVerifier {
 		{
 			for(int u = 0; u < stringArray.length/9; u++)
 			{
+				System.out.println("U:" + u);
 				if(u == firstrow[u][0])
 				{
-					System.out.println("U:" + u);
+					
 					answerArray[i] = answerArray[i] + 1;
 				}	
 			}
