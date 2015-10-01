@@ -9,3 +9,15 @@ FileOpenedAction 1443688804504 Main.java 70 0 0 0
 EditAction 1443688891036 SudokuVerifier.java 202 1 1 0
 RefactoringAction 1443688923690 Main.java ADD void SudokuVerifier() METHOD
 EditAction 1443688927102 Main.java 88 1 0 0
+CompilationAction 1443688927204 Main.java
+CompilationAction 1443688927204 Main.java
+RefactoringAction 1443688942212 Main.java REMOVE SudokuVerifier() METHOD
+CompilationAction 1443688951226 Main.java
+CompilationAction 1443688951226 Main.java
+CompilationAction 1443688951241 Main.java
+CompilationAction 1443688951242 Main.java
+FileOpenedAction 1443689064474 Main.java 75 0 0 0
+RefactoringAction 1443689100855 Main.java ADD SudokuVerifier sudokuVerifier FIELD
+CompilationAction 1443689126423 Main.java
+CompilationAction 1443689126424 Main.java
+EditAction 1443689313560 Main.java 205 0 0 0
