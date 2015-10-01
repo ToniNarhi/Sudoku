@@ -22,14 +22,21 @@ public class SudokuVerifier {
 			}
 
 		}	
+		int[] answerArray = new int[9];
 		for(int i = 0; i < stringArray.length/9; i++)
 		{
 			for(int u = 0; u < stringArray.length/9; u++)
 			{
-				
-				
+				if(u == firstrow[i][0])
+				{
+					answerArray[i]++;
+				}	
 			}
 		
+		}
+		for(int i = 0; i < 9; i++)
+		{
+			System.out.println("Answer Array:" + answerArray[i]);
 		}
 		System.out.println("Runs!");
 		return 0;
