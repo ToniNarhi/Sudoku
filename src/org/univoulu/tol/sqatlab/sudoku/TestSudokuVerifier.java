@@ -8,7 +8,13 @@ public class TestSudokuVerifier {
 
 	@Test
 	public void FirstRowisCorrectHorizontally() {
-		
+		int result = 0;
+		for(int i = 0;i < 9; i++)
+		{
+			
+			assertEquals(result, 45)	;
+
+		}
 	}
 
 }
