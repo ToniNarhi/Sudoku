@@ -22,7 +22,7 @@ public class SudokuVerifier {
 			}
 
 		}	
-		int[] answerArray = new int[10];
+		int[] answerArray = new int[9];
 		for(int i = 0; i < stringArray.length/9; i++)
 		{
 			for(int u = 0; u < stringArray.length/9; u++)
@@ -33,8 +33,11 @@ public class SudokuVerifier {
 				System.out.println("firstrow:" + firstrow[0][i]);
 				if(x == firstrow[i][0])
 				{
+					if(x == 1 && firstrow[0][i] == 1)
+					{
 					System.out.println("Answer Array runs!");
-					answerArray[x]++;
+					answerArray[0]++;
+					}
 				}	
 			}
 		
