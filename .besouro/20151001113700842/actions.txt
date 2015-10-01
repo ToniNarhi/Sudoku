@@ -138,3 +138,6 @@ EditAction 1443695181905 SudokuVerifier.java 1391 1 8 0
 EditAction 1443695206942 SudokuVerifier.java 1393 1 8 0
 EditAction 1443695318489 SudokuVerifier.java 1392 1 8 0
 EditAction 1443695431968 SudokuVerifier.java 1447 1 8 0
+RefactoringAction 1443695452514 SudokuVerifier.java ADD int i FIELD
+RefactoringAction 1443695455047 SudokuVerifier.java REMOVE i FIELD
+EditAction 1443695462243 SudokuVerifier.java 1453 1 8 0

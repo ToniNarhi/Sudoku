@@ -31,13 +31,13 @@ public class SudokuVerifier {
 				x= u +1;
 				System.out.println("U:" + x);
 				System.out.println("firstrow:" + firstrow[0][i]);
-				if(x == firstrow[i][0])
+				if(x == firstrow[0][i])
 				{
-					if(x == 1 && firstrow[0][i] == 1)
-					{
+					//if(x == 1 && firstrow[0][i] == 1)
+					//{
 					System.out.println("Answer Array runs!");
 					answerArray[0]++;
-					}
+					//}
 				}	
 			}
 		
